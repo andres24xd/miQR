@@ -14,32 +14,32 @@
 
 Para instalar la herramienta y todas sus dependencias en cualquier distribución de Linux, utiliza el script de instalación incluido:
 
-\`\`\`bash
+```bash
 chmod +x miQR.sh
 sudo ./miQR.sh
-\`\`\`
+```
 
 ## 💡 Ejemplos de Uso
 
 **1. Ver el QR en la terminal:**
-\`\`\`bash
+```bash
 miqr -d "Hola Mundo"
-\`\`\`
+```
 
 **2. Guardar como imagen PNG:**
-\`\`\`bash
+```bash
 miqr -d "https://google.com" -o buscador.png
-\`\`\`
+```
 
 **3. Colores personalizados (Azul sobre Gris claro):**
-\`\`\`bash
+```bash
 miqr -d "Datos" -o color.png -f blue -b lightgray
-\`\`\`
+```
 
 **4. Usar con tuberías:**
-\`\`\`bash
+```bash
 echo "Texto desde un pipe" | miqr -o pipe.png
-\`\`\`
+```
 
 ## 👨‍💻 Autor
 
