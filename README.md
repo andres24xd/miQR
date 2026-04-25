@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # miQR - Herramienta CLI para Generar Códigos QR 🔳
 
 `miqr` es una herramienta ligera y modular diseñada para generar códigos QR de forma rápida y eficiente directamente desde la terminal de Linux. Es ideal para desarrolladores y usuarios avanzados que prefieren la potencia de la línea de comandos.
@@ -45,4 +44,3 @@ echo "Texto desde un pipe" | miqr -o pipe.png
 ## 👨‍💻 Autor
 
 Desarrollado por **Andrés Sánchez**.
-EOF
